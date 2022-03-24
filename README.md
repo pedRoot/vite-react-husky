@@ -155,4 +155,7 @@ Ejecutar yarn cy:r ó yarn cy:o para que sea creada la carpeta de trabajo de cyp
 
 - yarn add husky — save-dev
 - npx husky install
-- npx husky add .husky/pre-push "npm run cy:r"
+
+### Agrega hook pre-commit
+
+- npx husky add .husky/pre-commit "npm run cy:r"
